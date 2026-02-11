@@ -1,0 +1,44 @@
+name: Deploy API
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup environment files
+      run: |
+        echo "Creating environment files..."
+        echo "LM_API_URL=\${{ secrets.NGROK_MODEL_URL }}/v1/chat/completions" > api/.env
+        echo "KAREN_API_URL=\${{ secrets.NGROK_MODEL_URL }}/v1/chat/completions" >> api/.env
+        echo "VITE_API_URL=https://api.prompt-portal-prod.raibach.net" > public_html/.env.production
+    
+    - name: Deploy via SSH
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ssh.raibach.net
+        port: 18765
+        username: u2819-gkhlcvpg4gjm
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        script: |
+          cd ~/www/api.prompt-portal-prod.raibach.net
+          git pull origin main
+          
+          # Copy environment files
+          cp -f          cp -f          cp -f          cp -f          cp -f          cpc_html/.env.production 2>/dev/nu          cp -f                cp -f    t b    nd
+                            _api.py" 2>/dev/null ||                nohup pytho                            nd.log 2>&1 &
+          
+          sleep 5
+          echo           echo           echo           ech://localhost:8001/api/health || exit 1
+          
+          echo "Testing public API..."
+          curl -f https://api.prompt-portal-prod.raibach.net/api/health || exit 1
+          
+          echo "✅ Deployment successful"
