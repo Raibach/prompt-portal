@@ -1,0 +1,2 @@
+release: bash build.sh
+web: gunicorn grace_api:app --bind 0.0.0.0:$PORT

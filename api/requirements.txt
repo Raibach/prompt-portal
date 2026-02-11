@@ -1,0 +1,43 @@
+# Grace SaaS - Python Dependencies
+# Install: pip3 install -r requirements.txt
+
+# Database
+psycopg2-binary==2.9.11
+SQLAlchemy==2.0.23
+alembic==1.13.1
+
+# Authentication & Security
+bcrypt==4.1.2
+python-jose[cryptography]==3.3.0
+python-dotenv==1.0.0
+
+# Payment Processing
+stripe==7.8.0
+
+# AI & Machine Learning
+openai==1.6.1
+numpy>=1.26.4  # Updated for Python 3.13 compatibility
+assemblyai>=0.46.0  # Universal Streaming API for real-time speech-to-text (free tier: 5 hours/month) - Latest version is 0.46.0
+
+# PyTorch (CPU only for Railway) - Required for sentence-transformers
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu
+torchvision==0.21.0+cpu
+torchaudio==2.6.0+cpu
+
+# Vector search & embeddings - REQUIRED for memory system
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0.post1
+
+# PDF processing - REQUIRED for document analysis
+PyMuPDF==1.26.5
+
+# API & Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+requests==2.31.0
+gunicorn==21.2.0
+
+# Utilities
+python-multipart==0.0.6
+psutil==5.9.8  # System and process utilities for memory monitoring

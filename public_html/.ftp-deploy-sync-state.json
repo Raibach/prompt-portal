@@ -1,0 +1,89 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1770738744972,
+    "data": [
+        {
+            "type": "file",
+            "name": ".htaccess",
+            "size": 519,
+            "hash": "111f9976196ee4c8b0192d4dff2a7d3355b4a6843ad06a1c2c46bd852d8b4998"
+        },
+        {
+            "type": "folder",
+            "name": "assets"
+        },
+        {
+            "type": "file",
+            "name": "grace-editing-engine-logo2.png",
+            "size": 3291,
+            "hash": "e84c73690cdb6ab1338d9b606f049d81ca39a948a70bcb721c1c57e3590a4e2e"
+        },
+        {
+            "type": "file",
+            "name": "index.html",
+            "size": 744,
+            "hash": "fe3c82e7197edaa7bf0697f4ef8b5c4ed39e436596ac23fcbd69a2a89866483d"
+        },
+        {
+            "type": "file",
+            "name": "open-book.png",
+            "size": 29440,
+            "hash": "8033a89bfc03ac46055d7512228d41ebccbbb5269ca2c4df7994c2370d97cfd0"
+        },
+        {
+            "type": "file",
+            "name": "vite.svg",
+            "size": 1497,
+            "hash": "4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb"
+        },
+        {
+            "type": "file",
+            "name": "assets/a0c698671eb795bc84024e87ad7c0b231c53115c-GC2yKvyO.png",
+            "size": 34944,
+            "hash": "054632353ec865f3adc35808863b93abbddada5313e7a2614ff5871a8c60e944"
+        },
+        {
+            "type": "file",
+            "name": "assets/browser-DrTlF40x.js",
+            "size": 16035,
+            "hash": "d421e53f11b8274a9f5761aadf0a92eabfd35cd1f4849ef639cb42a87fff070a"
+        },
+        {
+            "type": "file",
+            "name": "assets/html2canvas.esm-B0tyYwQk.js",
+            "size": 202363,
+            "hash": "c2bd1bddd0796f58fde6e213c061b2721256d46366bcee00c8530819e5fbc573"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-DUHHDki7.js",
+            "size": 1122444,
+            "hash": "619f5c4cc2d9ac12ea61ef89f6e5c66c4a51de57db5f2bd5e845d56ace586fe8"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-Dbix2nc4.css",
+            "size": 123056,
+            "hash": "6932d24c00f52a9dcaec7978ef69249e9c33ed8ab5e443e7e2a3de4f3b5d5995"
+        },
+        {
+            "type": "file",
+            "name": "assets/index.es-BHWKx1YC.js",
+            "size": 159401,
+            "hash": "b3e2e57fafcb2d6c204c57cae56590ed0ea515bdfe39c7da4abd982304b443dd"
+        },
+        {
+            "type": "file",
+            "name": "assets/jspdf.es.min-DuZefw6d.js",
+            "size": 387693,
+            "hash": "3b81bfeb1da41f870b1ae1689379b299d21a9e9fa87c9bc10aeba30d91f54a50"
+        },
+        {
+            "type": "file",
+            "name": "assets/purify.es-B6FQ9oRL.js",
+            "size": 22565,
+            "hash": "41c0a5db981f6d6e24d1e81c0e7cae13ef2f36189cac7ee1ebd8fb8ba32da97b"
+        }
+    ]
+}

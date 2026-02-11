@@ -1,0 +1,13 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1770738862276,
+    "data": [
+        {
+            "type": "file",
+            "name": ".htaccess_api_temp",
+            "size": 577,
+            "hash": "6f041b060217341025d044e85911b54b639ae236164a97e2806531ae82eb946d"
+        }
+    ]
+}
