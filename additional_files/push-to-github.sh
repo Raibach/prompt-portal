@@ -7,7 +7,7 @@ export GIT_TERMINAL_PROMPT=0
 export GIT_ASKPASS=/bin/false
 
 if [ -n "$GITHUB_PAT" ]; then
-  git push "https://John-Holt-Raibach:${GITHUB_PAT}@github.com/John-Holt-Raibach/enterprise-prompting.git" main
+  git push "https://Raibach:${GITHUB_PAT}@github.com/Raibach/prompt-portal.git" main
 else
   echo "Set your token first, then run again:"
   echo "  export GITHUB_PAT=your_token_here"
